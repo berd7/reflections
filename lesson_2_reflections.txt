@@ -9,3 +9,9 @@ the staging area is an intermediate step between the working dir to
 the repo where it keeps all the commit history. when we make a commit
 it transfers the states of the files in the staging area to repo as a
 bundle. it is useful to decide which files should be committed.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+you can check out the code differences using git diff --staged to
+see how big the changes are and if it makes sense as one logical
+change.
