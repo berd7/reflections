@@ -1,0 +1,11 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+it turns a normal dir into a git repo. it also creates a hidden .git
+dir inside the new repo where it will keep track of the commit histories. we have to make it a repo to be able to use git commands on it.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is an intermediate step between the working dir to
+the repo where it keeps all the commit history. when we make a commit
+it transfers the states of the files in the staging area to repo as a
+bundle. it is useful to decide which files should be committed.
