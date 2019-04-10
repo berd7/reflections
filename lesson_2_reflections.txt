@@ -15,3 +15,29 @@ bundle. it is useful to decide which files should be committed.
 you can check out the code differences using git diff --staged to
 see how big the changes are and if it makes sense as one logical
 change.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+if you decide to implement a new feature for testing before you deploy
+it. branches can keep these experimental changes away from main branch
+until you are sure it ready.
+
+5. How do the diagrams help you visualize the branch structure?
+
+we can see which commits the branches start to split from. we can
+see how the commits progress from each branch.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+it will add all the changes from each branch together and keep all
+the commit history from both. in the diagram it will show graphically
+how the commits belong to each branch if you use the --graph flag when
+using git log.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+git's auto merging is very useful to take care of well behaved changes
+where there are no conflicts. but when a conflict does arise then at
+least we are given an idea of where to look and we can choose ourselves
+to stop any ambiguity. it takes a lot of the work from doing manual
+merging and hassle.
