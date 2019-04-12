@@ -2,3 +2,10 @@
 
 if you need to work on a team and update your work so that others can see it. also can keep a backup online as well.
 or if your branch is ready to be pushed online then you can push it to the remote repo.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+so that it doesn't make changes you don't want yet. if someone updated
+a remote repo and git automatically updated your local repo then it
+might mess up your branch. it's better to pull changes when we need to
+so things don't get cluttered and messy.
