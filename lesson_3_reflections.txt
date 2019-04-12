@@ -21,3 +21,10 @@ branch up to a remote repo on github or we pull a branch down to our
 local machine from github. you use clone when you want a local copy of
 a repo. you use fork when making a clone on the server from another
 user's repo.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+so that we can work offline and still have the remote branch locally
+to compare. we can edit the local copy of the remote branch or merge
+it onto our own branches. it also tells us the state when we last
+synched with the remote branch.
