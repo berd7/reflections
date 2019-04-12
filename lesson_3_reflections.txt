@@ -9,3 +9,15 @@ so that it doesn't make changes you don't want yet. if someone updated
 a remote repo and git automatically updated your local repo then it
 might mess up your branch. it's better to pull changes when we need to
 so things don't get cluttered and messy.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+fork is cloning a repo from one github account to another. clone is
+when you make a copy from a github repo to your local machine or when
+you make a clone locally from one dir to another. branches happen when
+you make a split from the main branch to work on a new feature without
+tempering with existing code. you can then merge branches back together. when using push or pull we do so using a branch. we push a
+branch up to a remote repo on github or we pull a branch down to our
+local machine from github. you use clone when you want a local copy of
+a repo. you use fork when making a clone on the server from another
+user's repo.
