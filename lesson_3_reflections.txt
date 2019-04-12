@@ -1,0 +1,4 @@
+1. When would you want to use a remote repository rather than keeping all your work local?
+
+if you need to work on a team and update your work so that others can see it. also can keep a backup online as well.
+or if your branch is ready to be pushed online then you can push it to the remote repo.
