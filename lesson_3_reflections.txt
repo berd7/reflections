@@ -28,3 +28,12 @@ so that we can work offline and still have the remote branch locally
 to compare. we can edit the local copy of the remote branch or merge
 it onto our own branches. it also tells us the state when we last
 synched with the remote branch.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+to collaborate without using git or hub we would need to either meet
+in person, on the phone, or on some video web service. then to share
+the code we would have to use email or some service online or through
+physical medium, or ssh. this would be much more cumbersome. using git
+and hub makes it easier to send changes to a location where multiple
+people can see it and work on it. it makes collaboration much easier.
