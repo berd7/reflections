@@ -37,3 +37,13 @@ the code we would have to use email or some service online or through
 physical medium, or ssh. this would be much more cumbersome. using git
 and hub makes it easier to send changes to a location where multiple
 people can see it and work on it. it makes collaboration much easier.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+when you are working on a new feature and don't want to mess up the
+main branch or work. it helps doing this way so that when your branch
+is ready you can push it up after merging master into it to send a
+pull request after online on gub so others can review your work before
+making a decision. when working directly in master it is easy to go
+back and forth using commits. the path is straightforward and simple.
+this is better for solo work when the project isn't that big.
